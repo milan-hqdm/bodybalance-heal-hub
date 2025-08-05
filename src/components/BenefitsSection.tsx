@@ -41,16 +41,7 @@ const BenefitsSection = () => {
                 with our professional therapeutic treatments.
               </p>
               
-              <div className="bg-sage/20 rounded-lg p-6 mt-8">
-                <p className="text-sm text-muted-foreground mb-2">Research shows:</p>
-                <p className="text-foreground font-medium">
-                  "Regular massage therapy reduces cortisol levels by up to 31% and increases 
-                  serotonin by 28% while improving pain scores by an average of 40%."
-                </p>
-                <p className="text-xs text-muted-foreground mt-2">
-                  - American Massage Therapy Association Research
-                </p>
-              </div>
+              
             </div>
             
             <div className="lg:flex-shrink-0 bg-zinc-300 hover:bg-zinc-200">
