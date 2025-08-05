@@ -157,48 +157,69 @@ All colors MUST be HSL.
     @apply h-full;
   }
 
-  /* All buttons - consistent styling regardless of background */
-  .hover-filled-slide-down {
+  /* All buttons - consistent styling regardless of background - override button variants */
+  .btn.hover-filled-slide-down,
+  .hover-filled-slide-down.btn {
     background-color: #00825B !important;
     color: white !important;
     border: none !important;
   }
 
-  .hover-filled-slide-down::before {
+  .btn.hover-filled-slide-down::before,
+  .hover-filled-slide-down.btn::before {
     background-color: #00B27D !important;
   }
 
-  .hover-filled-slide-down:hover span {
+  .btn.hover-filled-slide-down:hover span,
+  .hover-filled-slide-down.btn:hover span {
     color: white !important;
   }
 
   /* Override any section-specific button styles */
-  .bg-primary .hover-filled-slide-down,
-  .bg-secondary .hover-filled-slide-down,
-  [data-dark-bg] .hover-filled-slide-down,
-  .bg-background .hover-filled-slide-down,
-  .bg-sage .hover-filled-slide-down,
-  .bg-cream .hover-filled-slide-down {
+  .bg-primary .btn.hover-filled-slide-down,
+  .bg-secondary .btn.hover-filled-slide-down,
+  [data-dark-bg] .btn.hover-filled-slide-down,
+  .bg-background .btn.hover-filled-slide-down,
+  .bg-sage .btn.hover-filled-slide-down,
+  .bg-cream .btn.hover-filled-slide-down,
+  .bg-primary .hover-filled-slide-down.btn,
+  .bg-secondary .hover-filled-slide-down.btn,
+  [data-dark-bg] .hover-filled-slide-down.btn,
+  .bg-background .hover-filled-slide-down.btn,
+  .bg-sage .hover-filled-slide-down.btn,
+  .bg-cream .hover-filled-slide-down.btn {
     background-color: #00825B !important;
     color: white !important;
     border: none !important;
   }
 
-  .bg-primary .hover-filled-slide-down::before,
-  .bg-secondary .hover-filled-slide-down::before,
-  [data-dark-bg] .hover-filled-slide-down::before,
-  .bg-background .hover-filled-slide-down::before,
-  .bg-sage .hover-filled-slide-down::before,
-  .bg-cream .hover-filled-slide-down::before {
+  .bg-primary .btn.hover-filled-slide-down::before,
+  .bg-secondary .btn.hover-filled-slide-down::before,
+  [data-dark-bg] .btn.hover-filled-slide-down::before,
+  .bg-background .btn.hover-filled-slide-down::before,
+  .bg-sage .btn.hover-filled-slide-down::before,
+  .bg-cream .btn.hover-filled-slide-down::before,
+  .bg-primary .hover-filled-slide-down.btn::before,
+  .bg-secondary .hover-filled-slide-down.btn::before,
+  [data-dark-bg] .hover-filled-slide-down.btn::before,
+  .bg-background .hover-filled-slide-down.btn::before,
+  .bg-sage .hover-filled-slide-down.btn::before,
+  .bg-cream .hover-filled-slide-down.btn::before {
     background-color: #00B27D !important;
   }
 
-  .bg-primary .hover-filled-slide-down:hover span,
-  .bg-secondary .hover-filled-slide-down:hover span,
-  [data-dark-bg] .hover-filled-slide-down:hover span,
-  .bg-background .hover-filled-slide-down:hover span,
-  .bg-sage .hover-filled-slide-down:hover span,
-  .bg-cream .hover-filled-slide-down:hover span {
+  .bg-primary .btn.hover-filled-slide-down:hover span,
+  .bg-secondary .btn.hover-filled-slide-down:hover span,
+  [data-dark-bg] .btn.hover-filled-slide-down:hover span,
+  .bg-background .btn.hover-filled-slide-down:hover span,
+  .bg-sage .btn.hover-filled-slide-down:hover span,
+  .bg-cream .btn.hover-filled-slide-down:hover span,
+  .bg-primary .hover-filled-slide-down.btn:hover span,
+  .bg-secondary .hover-filled-slide-down.btn:hover span,
+  [data-dark-bg] .hover-filled-slide-down.btn:hover span,
+  .bg-background .hover-filled-slide-down.btn:hover span,
+  .bg-sage .hover-filled-slide-down.btn:hover span,
+  .bg-cream .hover-filled-slide-down.btn:hover span {
     color: white !important;
   }
 }
