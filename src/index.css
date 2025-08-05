@@ -134,10 +134,13 @@ All colors MUST be HSL.
 @layer components {
   .btn {
     @apply relative overflow-hidden transition-all duration-300 ease-out;
-    @apply font-bold tracking-wider uppercase cursor-pointer;
-    @apply min-w-[150px] rounded-md;
-    @apply text-sm;
+    @apply font-bold uppercase cursor-pointer;
+    @apply rounded-md;
+    padding: 12px 24px;
+    font-size: 14px;
     min-height: 44px;
+    min-width: 150px;
+    letter-spacing: 1px;
   }
 
   .btn span {
@@ -155,37 +158,37 @@ All colors MUST be HSL.
   }
 
   /* Light background sections - default green, hover lighter green */
-  .bg-background .hover-filled-slide-down,
-  .bg-sage .hover-filled-slide-down,
-  .bg-cream .hover-filled-slide-down {
-    @apply bg-primary text-primary-foreground;
+  .hover-filled-slide-down {
+    background-color: hsl(157 100% 25%); /* #00825B */
+    color: white;
   }
 
-  .bg-background .hover-filled-slide-down::before,
-  .bg-sage .hover-filled-slide-down::before,
-  .bg-cream .hover-filled-slide-down::before {
-    background-color: hsl(157 80% 40%);
+  .hover-filled-slide-down::before {
+    background-color: hsl(157 60% 45%); /* #2A9D6F */
   }
 
-  .bg-background .hover-filled-slide-down:hover span,
-  .bg-sage .hover-filled-slide-down:hover span,
-  .bg-cream .hover-filled-slide-down:hover span {
-    @apply text-primary-foreground;
+  .hover-filled-slide-down:hover span {
+    color: white;
   }
 
   /* Dark background sections - default white, hover light green */
   .bg-primary .hover-filled-slide-down,
-  .bg-secondary .hover-filled-slide-down {
-    @apply bg-background text-primary border border-primary;
+  .bg-secondary .hover-filled-slide-down,
+  [data-dark-bg] .hover-filled-slide-down {
+    background-color: white;
+    color: hsl(157 100% 25%); /* #00825B */
+    border: 1px solid hsl(157 100% 25%);
   }
 
   .bg-primary .hover-filled-slide-down::before,
-  .bg-secondary .hover-filled-slide-down::before {
-    background-color: hsl(157 60% 55%);
+  .bg-secondary .hover-filled-slide-down::before,
+  [data-dark-bg] .hover-filled-slide-down::before {
+    background-color: hsl(157 50% 60%); /* #40A378 */
   }
 
   .bg-primary .hover-filled-slide-down:hover span,
-  .bg-secondary .hover-filled-slide-down:hover span {
-    @apply text-primary-foreground;
+  .bg-secondary .hover-filled-slide-down:hover span,
+  [data-dark-bg] .hover-filled-slide-down:hover span {
+    color: white;
   }
 }
