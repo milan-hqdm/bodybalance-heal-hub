@@ -40,19 +40,19 @@ All colors MUST be HSL.
     --sage: 157 30% 88%;
     --sage-foreground: 157 100% 25%;
     
-    --earth: 160 100% 85%;
+    --earth: 123 50% 90%;
     --earth-foreground: 157 100% 25%;
     
-    --coral: 160 100% 85%;
+    --coral: 123 50% 90%;
     --coral-foreground: 157 100% 25%;
     
     --cream: 45 57% 96%;
     --cream-foreground: 157 100% 25%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(160 100% 85%), hsl(160 100% 80%));
+    --gradient-hero: linear-gradient(135deg, hsl(123 50% 90%), hsl(123 50% 85%));
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(157 24% 98%));
-    --gradient-cta: linear-gradient(135deg, hsl(160 100% 85%), hsl(160 100% 80%));
+    --gradient-cta: linear-gradient(135deg, hsl(123 50% 90%), hsl(123 50% 85%));
 
     /* Shadows */
     --shadow-soft: 0 4px 20px hsl(157 100% 25% / 0.1);

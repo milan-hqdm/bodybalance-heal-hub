@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-massage.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: '#B2FFE8'}}>
+    <section className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: '#D4F7D5'}}>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
