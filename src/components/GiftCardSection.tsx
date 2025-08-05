@@ -42,8 +42,8 @@ const GiftCardSection = () => {
               </div>
             </div>
 
-            <Button variant="cta" size="lg">
-              Buy Gift Card Now
+            <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down">
+              <span>Buy Gift Card Now</span>
             </Button>
           </div>
 

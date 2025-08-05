@@ -18,19 +18,16 @@ const VirtualTourSection = () => {
         <div className="max-w-4xl mx-auto">
           <div className="relative group">
             <div className="rounded-2xl overflow-hidden shadow-strong">
-              <img 
-                src={virtualTourImage} 
-                alt="Virtual tour of Body Balance clinic" 
-                className="w-full h-[500px] object-cover"
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!4v1676700445847!6m8!1m7!1sCAoSK0FGMVFpcE1fZk9JbDNFTnlDcWtGaF9aeVlFQkhZMXVuZDdaTDZiTXNZMEk.!2m2!1d40.369633782371!2d-111.78566390675!3f163.61!4f-13.150000000000006!5f0.5970117501821992" 
+                width="100%" 
+                height="500" 
+                style={{border: 0}} 
+                allowFullScreen={true} 
+                loading="lazy" 
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-[500px]"
               />
-              <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-smooth"></div>
-            </div>
-            
-            {/* Play Button Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <button className="w-20 h-20 bg-background/90 rounded-full flex items-center justify-center shadow-strong hover:scale-110 transition-smooth group">
-                <Play className="w-8 h-8 text-primary ml-1" />
-              </button>
             </div>
 
             {/* Tour Features */}
@@ -59,8 +56,8 @@ const VirtualTourSection = () => {
           </div>
 
           <div className="text-center mt-8">
-            <Button variant="cta" size="lg">
-              Schedule Your Visit
+            <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down">
+              <span>Schedule Your Visit</span>
             </Button>
           </div>
         </div>

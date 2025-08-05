@@ -41,8 +41,8 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="cta" size="xl" className="min-w-[200px]">
-                Book Your Session
+              <Button variant="cta" size="xl" className="btn btn-1 hover-filled-slide-down min-w-[200px]">
+                <span>Book Your Session</span>
               </Button>
             </div>
 

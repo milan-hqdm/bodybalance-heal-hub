@@ -129,3 +129,63 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Button Animation Styles */
+@layer components {
+  .btn {
+    @apply relative overflow-hidden transition-all duration-300 ease-out;
+    @apply font-bold tracking-wider uppercase cursor-pointer;
+    @apply min-w-[150px] border-radius-md;
+    @apply text-sm;
+    min-height: 44px;
+  }
+
+  .btn span {
+    @apply relative z-10 transition-colors duration-200 ease-out;
+  }
+
+  .hover-filled-slide-down::before {
+    content: '';
+    @apply absolute top-0 left-0 w-full h-0 transition-all duration-300 ease-out;
+    z-index: 1;
+  }
+
+  .hover-filled-slide-down:hover::before {
+    @apply h-full;
+  }
+
+  /* Light background sections - default green, hover lighter green */
+  .bg-background .hover-filled-slide-down,
+  .bg-sage .hover-filled-slide-down,
+  .bg-cream .hover-filled-slide-down {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  .bg-background .hover-filled-slide-down::before,
+  .bg-sage .hover-filled-slide-down::before,
+  .bg-cream .hover-filled-slide-down::before {
+    background-color: hsl(157 80% 40%);
+  }
+
+  .bg-background .hover-filled-slide-down:hover span,
+  .bg-sage .hover-filled-slide-down:hover span,
+  .bg-cream .hover-filled-slide-down:hover span {
+    @apply text-primary-foreground;
+  }
+
+  /* Dark background sections - default white, hover light green */
+  .bg-primary .hover-filled-slide-down,
+  .bg-secondary .hover-filled-slide-down {
+    @apply bg-background text-primary border border-primary;
+  }
+
+  .bg-primary .hover-filled-slide-down::before,
+  .bg-secondary .hover-filled-slide-down::before {
+    background-color: hsl(157 60% 55%);
+  }
+
+  .bg-primary .hover-filled-slide-down:hover span,
+  .bg-secondary .hover-filled-slide-down:hover span {
+    @apply text-primary-foreground;
+  }
+}

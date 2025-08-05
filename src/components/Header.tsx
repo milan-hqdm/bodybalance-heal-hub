@@ -30,8 +30,8 @@ const Header = () => {
                 <Phone className="w-4 h-4" />
                 <span className="font-medium">(123) 456-7890</span>
               </a>
-              <Button variant="cta" size="lg">
-                Book Now
+              <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down">
+                <span>Book Now</span>
               </Button>
             </div>
           </nav>
@@ -57,8 +57,8 @@ const Header = () => {
                 <Phone className="w-4 h-4" />
                 <span>(123) 456-7890</span>
               </a>
-              <Button variant="cta" size="lg" className="w-full">
-                Book Now
+              <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down w-full">
+                <span>Book Now</span>
               </Button>
             </nav>
           </div>

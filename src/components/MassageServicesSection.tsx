@@ -47,9 +47,11 @@ const MassageServicesSection = () => {
               </div>
             </div>
 
-            <Button variant="sage" size="lg" className="group">
-              Learn More
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-smooth" />
+            <Button variant="sage" size="lg" className="btn btn-1 hover-filled-slide-down group">
+              <span>
+                Learn More
+                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
+              </span>
             </Button>
           </div>
         </div>
