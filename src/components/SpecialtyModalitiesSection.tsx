@@ -7,19 +7,19 @@ const SpecialtyModalitiesSection = () => {
     {
       name: "Cupping Therapy",
       image: cuppingImage,
-      description: "Ancient healing technique using suction cups to improve circulation and reduce muscle tension.",
+      description: "Works deep to heal more difficult or chronic pain and can be useful for enhancing sport performance as well.",
       benefits: ["Improved circulation", "Pain relief", "Reduced inflammation", "Muscle recovery"]
     },
     {
       name: "Gua Sha Massage",
       image: guaShaImage,
-      description: "Traditional Chinese medicine technique using smooth-edged tools to release tension and toxins.",
+      description: "Using high quality stainless steel tools these techniques are great for releasing deep tight muscles and improving movement of the muscles.",
       benefits: ["Increased blood flow", "Lymphatic drainage", "Facial rejuvenation", "Stress relief"]
     },
     {
       name: "Warm Bamboo Massage",
       image: bambooImage,
-      description: "Innovative technique using heated bamboo stalks to provide deep pressure and relaxation.",
+      description: "With the soothing addition of heat this massage can be deep and therapeutic or light and relaxing.",
       benefits: ["Deep tissue relief", "Improved flexibility", "Stress reduction", "Enhanced wellness"]
     }
   ];
@@ -29,10 +29,11 @@ const SpecialtyModalitiesSection = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Specialized Therapeutic Techniques
+            Specialty Modalities
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Advanced modalities for enhanced healing and wellness
+            While massage therapy is fantastic at healing by itself we take that healing potential to the next level 
+            by utilizing special massage modalities that offer deeper healing.
           </p>
         </div>
 

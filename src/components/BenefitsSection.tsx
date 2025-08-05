@@ -52,20 +52,19 @@ const BenefitsSection = () => {
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
                 The Proven Benefits of Massage Therapy
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Scientific research consistently shows that regular massage therapy provides measurable 
-                improvements in both physical and mental health. Experience these evidence-based benefits 
-                with our professional therapeutic treatments.
-              </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Massage therapy offers a range of beneficial effects for both body and mind. Each session is customized 
+              to meet the needs of clients, providing therapeutic treatment that reduces stress and promotes relaxation.
+            </p>
               
               <div className="bg-sage/20 rounded-lg p-6 mt-8">
-                <p className="text-sm text-muted-foreground mb-2">Research shows:</p>
+                <p className="text-sm text-muted-foreground mb-2">Benefits include:</p>
                 <p className="text-foreground font-medium">
-                  "Regular massage therapy reduces cortisol levels by up to 31% and increases 
-                  serotonin by 28% while improving pain scores by an average of 40%."
+                  "Improved circulation aids in the delivery of oxygen and nutrients to tissues, facilitating quicker recovery. 
+                  Enhanced flexibility and mobility support better physical function."
                 </p>
                 <p className="text-xs text-muted-foreground mt-2">
-                  - American Massage Therapy Association Research
+                  - Body Balance Massage and Float
                 </p>
               </div>
             </div>

@@ -20,13 +20,13 @@ const HeroSection = () => {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary mb-6 leading-tight">
-              Transform Your
-              <span className="block text-primary">Pain Into Peace</span>
+              Professional Massage
+              <span className="block text-primary">American Fork, UT</span>
             </h1>
 
             <p className="text-xl text-primary/80 mb-8 max-w-2xl">
-              Experience therapeutic relief with our licensed massage therapists. 
-              Personalized treatments designed to restore your body and mind to perfect balance.
+              Because Health is Happiness. Massage therapy is great for treating many types of pain - 
+              whether headaches, joint pain, back pain, inflammation, or chronic pain.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -37,9 +37,9 @@ const HeroSection = () => {
 
             {/* Additional Trust Elements */}
             <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-primary/70 text-sm">
-              <span>✓ 15+ Years Experience</span>
-              <span>✓ Same-Day Appointments</span>
-              <span>✓ Insurance Accepted</span>
+              <span>✓ First Time Clients 35% Off</span>
+              <span>✓ Highly Trained Therapists</span>
+              <span>✓ Specialty Modalities Available</span>
             </div>
           </div>
 

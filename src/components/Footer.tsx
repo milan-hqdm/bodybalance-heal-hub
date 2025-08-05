@@ -16,7 +16,8 @@ const Footer = () => {
               <span className="ml-3 text-lg font-bold text-primary">Body Balance</span>
             </div>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              Professional massage therapy clinic dedicated to your wellness and healing journey.
+              Body Balance Massage and Float - Professional massage therapy clinic in American Fork, Utah. 
+              Because Health is Happiness.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-smooth">
@@ -34,8 +35,8 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary" />
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-smooth">
-                  (123) 456-7890
+                <a href="tel:(801)855-5834" className="text-muted-foreground hover:text-primary transition-smooth">
+                  (801) 855-5834
                 </a>
               </div>
               <div className="flex items-center space-x-3">
@@ -55,9 +56,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock className="w-5 h-5 text-primary mt-0.5" />
                 <div className="text-muted-foreground">
-                  <p>Mon-Fri: 8:00 AM - 8:00 PM</p>
-                  <p>Sat: 9:00 AM - 6:00 PM</p>
-                  <p>Sun: 10:00 AM - 5:00 PM</p>
+                  <p>Mon-Sat: 9:00 AM - 10:00 PM</p>
+                  <p>Sunday: Closed</p>
                 </div>
               </div>
             </div>

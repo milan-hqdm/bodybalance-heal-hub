@@ -22,27 +22,34 @@ const MassageServicesSection = () => {
               Our Massage Services
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Experience the healing power of therapeutic massage with our comprehensive range of services. 
-              Whether you're seeking relief from chronic pain, recovering from an injury, or simply need to unwind, 
-              our skilled therapists provide personalized treatments to meet your specific needs.
+              Our massage services in American Fork, Utah, offer a variety of techniques tailored to your needs. 
+              All our massage services are customized to meet your specific needs and preferences.
             </p>
             
             <div className="space-y-4 mb-8">
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-foreground">Swedish Relaxation Massage</span>
+                <span className="text-foreground">Swedish Massage - gentle strokes for relaxation</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-foreground">Deep Tissue Therapy</span>
+                <span className="text-foreground">Deep Tissue Massage - targets deeper muscles</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-foreground">Sports Massage & Recovery</span>
+                <span className="text-foreground">Sports Massage - for athletes and recovery</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span className="text-foreground">Prenatal Massage</span>
+                <span className="text-foreground">Prenatal/Postnatal Massage - specialized care</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <span className="text-foreground">Warm Bamboo Massage - heated bamboo tools</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full"></div>
+                <span className="text-foreground">Aromatherapy Massage - essential oils included</span>
               </div>
             </div>
 

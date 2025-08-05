@@ -11,9 +11,7 @@ const AboutSection = () => {
             Your Health, Elevated
           </p>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 max-w-4xl mx-auto leading-tight">
-            At Body Balance, we believe healthcare should be simple, 
-            personalized, and always within reach. We've reimagined how care is delivered—combining 
-            cutting-edge technology with a human touch to create a seamless, patient-first experience.
+            Our focus in each massage session is to heal the body, reduce pain, and restore balance.
           </h2>
         </div>
 
@@ -35,11 +33,11 @@ const AboutSection = () => {
             </div>
             <div className="p-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Explore Body Balance
+                Therapeutic Focus
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Our comprehensive approach combines traditional massage techniques with modern therapeutic methods 
-                to address your unique needs and wellness goals.
+                We tailor our massage style and treatments to emphasize the health of the body. While spa massages 
+                tend to emphasize pampering, our massage services focus on deep rejuvenation and healing for our clients.
               </p>
               <button className="text-primary font-medium hover:text-primary/80 transition-smooth">
                 Learn more →
@@ -63,11 +61,11 @@ const AboutSection = () => {
             </div>
             <div className="p-8">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Your Health, Your Way
+                Float Therapy & Recovery
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Every treatment is tailored specifically to you. Our licensed therapists work with you 
-                to create a personalized wellness plan that fits your lifestyle.
+                We have tailored our floating experience to be the most comfortable rejuvenating experience possible. 
+                Floating massage therapy is great for pain and sports recovery and may help with stress relief, anxiety, depression, or even PTSD symptoms.
               </p>
               <button className="text-primary font-medium hover:text-primary/80 transition-smooth">
                 Learn more →
