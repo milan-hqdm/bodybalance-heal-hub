@@ -137,7 +137,7 @@ All colors MUST be HSL.
     @apply font-bold uppercase cursor-pointer;
     @apply rounded-md;
     padding: 16px 32px;
-    font-size: 14px;
+    font-size: 16px;
     min-height: 44px;
     min-width: 150px;
     letter-spacing: 1px;
@@ -157,37 +157,48 @@ All colors MUST be HSL.
     @apply h-full;
   }
 
-  /* All buttons - default #00825B, hover #00B27D */
+  /* All buttons - consistent styling regardless of background */
   .hover-filled-slide-down {
-    background-color: #00825B;
-    color: white;
+    background-color: #00825B !important;
+    color: white !important;
+    border: none !important;
   }
 
   .hover-filled-slide-down::before {
-    background-color: #00B27D;
+    background-color: #00B27D !important;
   }
 
   .hover-filled-slide-down:hover span {
-    color: white;
+    color: white !important;
   }
 
-  /* Dark background sections - same colors */
+  /* Override any section-specific button styles */
   .bg-primary .hover-filled-slide-down,
   .bg-secondary .hover-filled-slide-down,
-  [data-dark-bg] .hover-filled-slide-down {
-    background-color: #00825B;
-    color: white;
+  [data-dark-bg] .hover-filled-slide-down,
+  .bg-background .hover-filled-slide-down,
+  .bg-sage .hover-filled-slide-down,
+  .bg-cream .hover-filled-slide-down {
+    background-color: #00825B !important;
+    color: white !important;
+    border: none !important;
   }
 
   .bg-primary .hover-filled-slide-down::before,
   .bg-secondary .hover-filled-slide-down::before,
-  [data-dark-bg] .hover-filled-slide-down::before {
-    background-color: #00B27D;
+  [data-dark-bg] .hover-filled-slide-down::before,
+  .bg-background .hover-filled-slide-down::before,
+  .bg-sage .hover-filled-slide-down::before,
+  .bg-cream .hover-filled-slide-down::before {
+    background-color: #00B27D !important;
   }
 
   .bg-primary .hover-filled-slide-down:hover span,
   .bg-secondary .hover-filled-slide-down:hover span,
-  [data-dark-bg] .hover-filled-slide-down:hover span {
-    color: white;
+  [data-dark-bg] .hover-filled-slide-down:hover span,
+  .bg-background .hover-filled-slide-down:hover span,
+  .bg-sage .hover-filled-slide-down:hover span,
+  .bg-cream .hover-filled-slide-down:hover span {
+    color: white !important;
   }
 }

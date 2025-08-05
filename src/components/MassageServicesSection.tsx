@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import massageImage from "@/assets/massage-services.jpg";
 
 const MassageServicesSection = () => {
@@ -47,10 +46,9 @@ const MassageServicesSection = () => {
               </div>
             </div>
 
-            <Button variant="sage" size="lg" className="btn btn-1 hover-filled-slide-down group">
+            <Button variant="sage" size="lg" className="btn btn-1 hover-filled-slide-down">
               <span>
                 Learn More
-                <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-smooth" />
               </span>
             </Button>
           </div>
