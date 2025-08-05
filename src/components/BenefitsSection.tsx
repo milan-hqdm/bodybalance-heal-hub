@@ -45,9 +45,7 @@ const BenefitsSection = () => {
             </div>
             
             <div className="lg:flex-shrink-0 bg-zinc-300 hover:bg-zinc-200">
-              <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down">
-                <span>Experience These Benefits Today</span>
-              </Button>
+              
             </div>
           </div>
 
