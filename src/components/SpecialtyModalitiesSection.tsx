@@ -47,9 +47,8 @@ const SpecialtyModalitiesSection = () => {
                 <img 
                   src={modality.image} 
                   alt={modality.name} 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-smooth"
+                  className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent"></div>
               </div>
               
               <div className="p-6">
