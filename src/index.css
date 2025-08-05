@@ -135,7 +135,7 @@ All colors MUST be HSL.
   .btn {
     @apply relative overflow-hidden transition-all duration-300 ease-out;
     @apply font-bold tracking-wider uppercase cursor-pointer;
-    @apply min-w-[150px] border-radius-md;
+    @apply min-w-[150px] rounded-md;
     @apply text-sm;
     min-height: 44px;
   }
