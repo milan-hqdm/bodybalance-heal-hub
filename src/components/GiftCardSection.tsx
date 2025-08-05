@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Gift } from "lucide-react";
 import giftCardImage from "@/assets/gift-card.jpg";
-
 const GiftCardSection = () => {
-  return (
-    <section className="py-20 bg-sage/20">
+  return <section className="py-20 bg-sage/20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           {/* Content */}
@@ -42,7 +40,7 @@ const GiftCardSection = () => {
               </div>
             </div>
 
-            <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down">
+            <Button variant="cta" size="lg" className="btn btn-1 hover-filled-slide-down bg-zinc-50">
               <span>Buy Gift Card Now</span>
             </Button>
           </div>
@@ -50,11 +48,7 @@ const GiftCardSection = () => {
           {/* Gift Card Visual */}
           <div className="relative">
             <div className="bg-gradient-card rounded-2xl p-8 shadow-medium">
-              <img 
-                src={giftCardImage} 
-                alt="Body Balance Gift Card" 
-                className="w-full rounded-xl shadow-soft"
-              />
+              <img src={giftCardImage} alt="Body Balance Gift Card" className="w-full rounded-xl shadow-soft" />
               <div className="mt-6 text-center">
                 <p className="text-sm text-muted-foreground mb-2">Popular amounts:</p>
                 <div className="flex justify-center space-x-3">
@@ -67,8 +61,6 @@ const GiftCardSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default GiftCardSection;
