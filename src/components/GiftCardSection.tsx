@@ -48,7 +48,7 @@ const GiftCardSection = () => {
           {/* Gift Card Visual */}
           <div className="relative">
             <div className="bg-gradient-card rounded-2xl p-8 shadow-medium">
-              <img src={giftCardImage} alt="Body Balance Gift Card" className="w-full rounded-xl shadow-soft" />
+              <img src="/lovable-uploads/92a040de-810e-4096-bf17-44238111510a.png" alt="Body Balance Gift Card" className="w-full rounded-xl shadow-soft" />
               <div className="mt-6 text-center">
                 <p className="text-sm text-muted-foreground mb-2">Popular amounts:</p>
                 <div className="flex justify-center space-x-3">
