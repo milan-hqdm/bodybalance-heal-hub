@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 import heroImage from "@/assets/hero-massage.jpg";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center overflow-hidden" style={{backgroundColor: '#D4F7D5'}}>
+  return <section className="relative min-h-screen flex items-center overflow-hidden" style={{
+    backgroundColor: '#D4F7D5'
+  }}>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 pt-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -13,9 +13,7 @@ const HeroSection = () => {
             {/* Trust Indicators */}
             <div className="flex items-center justify-center lg:justify-start space-x-4 mb-6">
               <div className="flex items-center space-x-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                ))}
+                {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />)}
               </div>
               <span className="text-primary/80 text-sm">5.0 • 500+ Reviews</span>
               <span className="text-primary/80 text-sm">• Licensed & Insured</span>
@@ -32,8 +30,8 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="cta" size="xl" className="btn btn-1 hover-filled-slide-down min-w-[200px]">
-                <span>Book Your Session</span>
+              <Button variant="cta" size="xl" className="btn btn-1 hover-filled-slide-down min-w-[200px] bg-sky-300 hover:bg-sky-200">
+                <span className="">Book Your Session</span>
               </Button>
             </div>
 
@@ -48,17 +46,11 @@ const HeroSection = () => {
           {/* Hero Image - Desktop Only */}
           <div className="hidden lg:block">
             <div className="relative">
-              <img 
-                src={heroImage} 
-                alt="Relaxing massage therapy" 
-                className="rounded-2xl shadow-strong object-cover w-full h-[600px]"
-              />
+              <img src={heroImage} alt="Relaxing massage therapy" className="rounded-2xl shadow-strong object-cover w-full h-[600px]" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
