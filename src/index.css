@@ -40,19 +40,19 @@ All colors MUST be HSL.
     --sage: 157 30% 88%;
     --sage-foreground: 157 100% 25%;
     
-    --earth: 25 85% 65%;
-    --earth-foreground: 0 0% 100%;
+    --earth: 160 100% 85%;
+    --earth-foreground: 157 100% 25%;
     
-    --coral: 12 100% 67%;
-    --coral-foreground: 0 0% 100%;
+    --coral: 160 100% 85%;
+    --coral-foreground: 157 100% 25%;
     
     --cream: 45 57% 96%;
     --cream-foreground: 157 100% 25%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(157 100% 25%), hsl(157 80% 30%));
+    --gradient-hero: linear-gradient(135deg, hsl(160 100% 85%), hsl(160 100% 80%));
     --gradient-card: linear-gradient(180deg, hsl(0 0% 100%), hsl(157 24% 98%));
-    --gradient-cta: linear-gradient(135deg, hsl(12 100% 67%), hsl(25 85% 65%));
+    --gradient-cta: linear-gradient(135deg, hsl(160 100% 85%), hsl(160 100% 80%));
 
     /* Shadows */
     --shadow-soft: 0 4px 20px hsl(157 100% 25% / 0.1);
@@ -136,7 +136,7 @@ All colors MUST be HSL.
     @apply relative overflow-hidden transition-all duration-300 ease-out;
     @apply font-bold uppercase cursor-pointer;
     @apply rounded-md;
-    padding: 12px 24px;
+    padding: 16px 32px;
     font-size: 14px;
     min-height: 44px;
     min-width: 150px;
@@ -157,14 +157,14 @@ All colors MUST be HSL.
     @apply h-full;
   }
 
-  /* Light background sections - default green, hover lighter green */
+  /* Light background sections - default primary, hover custom green */
   .hover-filled-slide-down {
-    background-color: hsl(157 100% 25%); /* #00825B */
+    background-color: hsl(157 100% 25%); /* Primary color */
     color: white;
   }
 
   .hover-filled-slide-down::before {
-    background-color: hsl(157 60% 45%); /* #2A9D6F */
+    background-color: hsl(162 100% 35%); /* #00B27D */
   }
 
   .hover-filled-slide-down:hover span {
