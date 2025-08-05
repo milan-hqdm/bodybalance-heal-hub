@@ -157,33 +157,32 @@ All colors MUST be HSL.
     @apply h-full;
   }
 
-  /* Light background sections - default primary, hover custom green */
+  /* All buttons - default #00825B, hover #00B27D */
   .hover-filled-slide-down {
-    background-color: hsl(157 100% 25%); /* Primary color */
+    background-color: #00825B;
     color: white;
   }
 
   .hover-filled-slide-down::before {
-    background-color: hsl(162 100% 35%); /* #00B27D */
+    background-color: #00B27D;
   }
 
   .hover-filled-slide-down:hover span {
     color: white;
   }
 
-  /* Dark background sections - default white, hover light green */
+  /* Dark background sections - same colors */
   .bg-primary .hover-filled-slide-down,
   .bg-secondary .hover-filled-slide-down,
   [data-dark-bg] .hover-filled-slide-down {
-    background-color: white;
-    color: hsl(157 100% 25%); /* #00825B */
-    border: 1px solid hsl(157 100% 25%);
+    background-color: #00825B;
+    color: white;
   }
 
   .bg-primary .hover-filled-slide-down::before,
   .bg-secondary .hover-filled-slide-down::before,
   [data-dark-bg] .hover-filled-slide-down::before {
-    background-color: hsl(157 50% 60%); /* #40A378 */
+    background-color: #00B27D;
   }
 
   .bg-primary .hover-filled-slide-down:hover span,
